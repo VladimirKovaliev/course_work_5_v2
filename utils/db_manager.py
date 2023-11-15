@@ -74,7 +74,7 @@ class DBManager:
             cur.execute(query)
             result = cur.fetchall()
             for company_name, vacancy_id, vacancy_name, salary_from, salary_to, requirement, vacancy_url in result:
-            print(f'Компания: {company_name}, названия вакансии: {vacancy_name}, номер вакансии {vacancy_id},'
-                  f'Зарплата от: {salary_from} до {salary_to}'
-                  f'Описание вакансии: {requirement}'
-                  f'Ссылка на вакансию: {vacancy_url}')
+                print(f'Компания: {company_name}, названия вакансии: {vacancy_name}, номер вакансии {vacancy_id},'
+                      f'Зарплата от: {salary_from} до {salary_to}'
+                      f'Описание вакансии: {requirement}'
+                      f'Ссылка на вакансию: {vacancy_url}')
