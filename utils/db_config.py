@@ -14,7 +14,7 @@ def create_database(database_name, params):
 
     with conn.cursor() as cur:
         cur.execute("""
-            CREATE TABLE emploters (
+            CREATE TABLE employers (
                 employer_id INTEGER PRIMARY KEY,
                 company_name VARCHAR(100) NOT NULL
                 )
